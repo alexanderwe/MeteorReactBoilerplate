@@ -47,6 +47,12 @@ alanning:roles
 
 This boilerplate also uses the **blaze-html-templates package**, for eventually using Blaze inside a wrapper component in React.
 
+
+## Inspired by
+
+This boilerplate was inspired by the tutorials and base template by (Scott Tolinski)[https://github.com/stolinski/level-up-meteor-react-base]
+
+
 ## Issues ?
 
 If you have any issues with this boilerplate let me know that in the issues section !
