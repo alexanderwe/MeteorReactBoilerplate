@@ -50,7 +50,19 @@ This boilerplate also uses the **blaze-html-templates package**, for eventually 
 
 ## Inspired by
 
-This boilerplate was inspired by the tutorials and base template by (Scott Tolinski)[https://github.com/stolinski/level-up-meteor-react-base]
+This boilerplate was inspired by the tutorials and base template by [Scott Tolinski](https://github.com/stolinski/level-up-meteor-react-base)
+
+
+## How to use ?
+
+Clone repository and install dependencies
+```
+git clone https://github.com/gr4h4n/MeteorReactBoilerplate  #Clone repository
+cd MeteorReactBoilerplate
+meteor npm install                                          #Install dependencies
+meteor                                                      #Start meteor
+
+```
 
 
 ## Issues ?
