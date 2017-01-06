@@ -1,16 +1,27 @@
 # MeteorReactBoilerplate
 
-A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm.
+A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm. Also React is made reactive by default with [tracker-react](https://github.com/ultimatejs/tracker-react) included by default.
 
 ## Dependencies for npm
 
 ```
-"meteor-node-stubs": "~0.2.0",
-"moment": "^2.14.1",
-"react": "^15.2.1",
-"react-addons-css-transition-group": "^15.2.1",
-"react-dom": "^15.2.1",
-"react-mounter": "^1.2.0"
+{
+  "name": "MeteorReactBoilerplate",
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.2",
+    "meteor-node-stubs": "^0.2.4",
+    "moment": "^2.17.1",
+    "react": "^15.4.1",
+    "react-addons-css-transition-group": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-mounter": "^1.2.0"
+  }
+}
+
 ```
 
 ## Meteor packages

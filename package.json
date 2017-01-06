@@ -1,6 +1,5 @@
 {
   "name": "MeteorReactBoilerplate",
-  "private": true,
   "scripts": {
     "start": "meteor run"
   },
