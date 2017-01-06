@@ -1,20 +1,16 @@
 import React, {Component} from 'react';
+import TrackerReact from 'meteor/ultimatejs:tracker-react';
 
-export default class HelloWorld extends Component {
+export default class HelloWorld extends TrackerReact(Component) {
 
-
-    componentDidMount(){
-
-    }
-
-    componentWillUnmount(){
-
+    constructor(props){
+        super(props);
     }
 
     render(){
         return(
             <div>
-                <p>Hello World!</p>
+                <p>Woop Woop!</p>
             </div>
         )
     }
