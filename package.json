@@ -1,5 +1,7 @@
 {
   "name": "MeteorReactBoilerplate",
+  "version": "1.2.0",
+  "description": "A small boilerplate using Meteor 1.4.2.3, React and TrackerReact",
   "scripts": {
     "start": "meteor run"
   },
@@ -8,9 +10,9 @@
     "bcrypt": "^1.0.2",
     "meteor-node-stubs": "^0.2.4",
     "moment": "^2.17.1",
-    "react": "^15.4.1",
+    "react": "^15.4.2",
     "react-addons-css-transition-group": "^15.4.1",
-    "react-dom": "^15.4.1",
+    "react-dom": "^15.4.2",
     "react-mounter": "^1.2.0"
   }
 }
