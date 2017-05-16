@@ -23,11 +23,10 @@ kadira:flow-router      # Router used for different routings in app
 meteortoys:allthings    # Development tool for Meteor and Mongo
 ultimatejs:tracker-react# Make React reactive with Meteor
 
-stolinski:stylus-multi  # Additional packages for stylus and PostCSS
-
 # All things about users,password and roles
 useraccounts:unstyled
 accounts-password@1.3.6
 raix:handlebar-helpers
 alanning:roles
 shell-server@0.2.3
+fourseven:scss

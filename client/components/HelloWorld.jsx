@@ -1,17 +1,23 @@
-import React, {Component} from 'react';
-import TrackerReact from 'meteor/ultimatejs:tracker-react';
+import React, { Component } from "react";
+import TrackerReact from "meteor/ultimatejs:tracker-react";
 
 export default class HelloWorld extends TrackerReact(Component) {
-
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                <p>Woop Woop!</p>
+                <h1>My Meteor React App</h1>
+                <p>Happy Coding!</p>
+                <p>
+                    If you see some issues with this boilerplate make an issue on
+                    <a href="https://github.com/alexanderwe/MeteorReactBoilerplate"> Github</a>
+
+                </p>
+
             </div>
-        )
+        );
     }
 }
