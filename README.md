@@ -1,6 +1,6 @@
 # MeteorReactBoilerplate
 
-A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm. Also React is made reactive with [tracker-react](https://github.com/ultimatejs/tracker-react) included by default. Also a settings file for storing constants like API-Keys is available. But keep in mind do not commit your settings.json file into any version control system. For git just add `settings.json` to your _.gitignore_ file.
+A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm. Also React is made reactive with [tracker-react](https://github.com/ultimatejs/tracker-react) included by default. Also a settings file for storing constants like API-Keys is available. But keep in mind to not commit your settings.json file into any version control system. For git just add `settings.json` to your _.gitignore_ file.
 
 ## Dependencies for npm
 
