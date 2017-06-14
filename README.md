@@ -3,7 +3,7 @@
 ![Meteor version](https://img.shields.io/badge/Meteor%20Version-1.5-green.svg)
 ![React version](https://img.shields.io/badge/React%20Version-1.5.6-green.svg)
 
-A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm. You can make your React components reactive with `meteor-react-data`. For further reading about this please visit the [Meteor Guide](https://guide.meteor.com/react.html#using-createContainer) Also a settings-file for storing constants like API-Keys is available. But keep in mind to not commit your settings.json file into any version control system. For git just add `settings.json` to your _.gitignore_ file.
+A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm. You can make your React components reactive with `meteor-react-data`. For further reading about this please visit the [Meteor Guide](https://guide.meteor.com/react.html#using-createContainer) Also a settings-file for storing constants like API-Keys is available. **But keep in mind to not commit your settings.json file into any version control system. For git just add `settings.json` to your _.gitignore_ file.**
 
 React Router is used for routing between components and containers. This is done in a very rudimental way, if you want to read more about routing with React Router visit [their website](https://reacttraining.com/react-router/).
 
