@@ -60,7 +60,7 @@ dynamic-import
 ```
 
 ## Naming conventions
-I am using `*/components/*.component.jsx` for specifying pure React components and `*/container/*.container.jsx` for specifying container components. You can either adop this naming scheme or use your own one.
+I am using `*/components/*.component.jsx` for specifying pure React components and `*/container/*.container.jsx` for specifying container components. You can either adopt this naming scheme or use your own one.
 
 ## Inspired by
 
