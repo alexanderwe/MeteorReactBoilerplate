@@ -1,16 +1,26 @@
 {
   "name": "MeteorReactBoilerplate",
-  "version": "1.2.0",
-  "description": "A small boilerplate using Meteor 1.4.4.2, React and TrackerReact",
+  "version": "1.4.0",
+  "description": "A small boilerplate using Meteor 1.5 and React with Reac-Router",
+  "author": {
+    "name": "alexanderwe",
+    "url": "https://github.com/alexanderwe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderwe/MeteorReactBoilerplate.git"
+  },
+  "license": "MIT",
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
     "bcrypt": "^1.0.2",
-    "meteor-node-stubs": "^0.2.5",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-mounter": "^1.2.0"
+    "meteor-node-stubs": "^0.2.11",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
   }
 }

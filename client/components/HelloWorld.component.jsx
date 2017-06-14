@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import TrackerReact from "meteor/ultimatejs:tracker-react";
+import { NavLink } from "react-router-dom"
 
-export default class HelloWorld extends TrackerReact(Component) {
-    constructor(props) {
-        super(props);
-    }
 
+class HelloWorld extends Component {
     render() {
         return (
             <div>
@@ -14,10 +11,17 @@ export default class HelloWorld extends TrackerReact(Component) {
                 <p>
                     If you see some issues with this boilerplate make an issue on
                     <a href="https://github.com/alexanderwe/MeteorReactBoilerplate"> Github</a>
-
                 </p>
+
+                <div>
+                    <h3>Test the routing</h3>
+                    <NavLink to={"/"}>Hello World</NavLink> <br />
+                    <NavLink to={"/goodbye"}>Goodbye World</NavLink>
+                </div>
 
             </div>
         );
     }
 }
+
+export default HelloWorld;
