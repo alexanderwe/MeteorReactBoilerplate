@@ -1,6 +1,6 @@
 {
   "name": "MeteorReactBoilerplate",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A small boilerplate using Meteor 1.5 and React with Reac-Router",
   "author": {
     "name": "alexanderwe",
@@ -10,7 +10,16 @@
     "type": "git",
     "url": "https://github.com/alexanderwe/MeteorReactBoilerplate.git"
   },
+  "bugs": {
+    "url": "https://github.com/alexanderwe/MeteorReactBoilerplate/issues"
+  },
   "license": "MIT",
+  "keywords": [
+    "react",
+    "react-router",
+    "meteor",
+    "boilerplate"
+  ],
   "scripts": {
     "start": "meteor run"
   },
