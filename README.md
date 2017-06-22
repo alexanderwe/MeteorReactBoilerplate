@@ -8,10 +8,10 @@ A simple boilerplate for using React within Meteor. All fundamental packages and
 React Router is used for routing between components and containers. This is done in a very rudimental way, if you want to read more about routing with React Router visit [their website](https://reacttraining.com/react-router/).
 
 
-## Dependencies for npm
+## Dependencies
 
 ```
-""dependencies": {
+"dependencies": {
     "babel-runtime": "^6.23.0",
     "bcrypt": "^1.0.2",
     "meteor-node-stubs": "^0.2.11",
@@ -73,9 +73,10 @@ Clone repository and install dependencies
 ```
 git clone https://github.com/alexanderwe/MeteorReactBoilerplate  #Clone repository
 cd MeteorReactBoilerplate
-meteor npm install                                          #Install dependencies
-meteor                                                      #Start meteor
-meteor  --settings settings.json                            #Start meteor with settings
+meteor yarn install                                         # Install dependencies with yarn
+(meteor npm install                                         # If you do not want to use yarn, remove 'yarn.lock')
+meteor                                                      # Start meteor
+meteor  --settings settings.json                            # Start meteor with settings
 ```
 
 
