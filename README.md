@@ -1,7 +1,7 @@
 # MeteorReactBoilerplate
 
-![Meteor version](https://img.shields.io/badge/Meteor%20Version-1.5-green.svg)
-![React version](https://img.shields.io/badge/React%20Version-1.5.6-green.svg)
+![Meteor version](https://img.shields.io/badge/Meteor%20Version-1.5.2-green.svg)
+![React version](https://img.shields.io/badge/React%20Version-15.6.1-green.svg)
 
 A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm. You can make your React components reactive with `meteor-react-data`. For further reading about this please visit the [Meteor Guide](https://guide.meteor.com/react.html#using-createContainer) Also a settings-file for storing constants like API-Keys is available. **But keep in mind to not commit your settings.json file into any version control system. For git just add `settings.json` to your _.gitignore_ file.**
 
@@ -15,10 +15,10 @@ React Router is used for routing between components and containers. This is done
     "babel-runtime": "^6.23.0",
     "bcrypt": "^1.0.2",
     "meteor-node-stubs": "^0.2.11",
-    "react": "^15.6.0",
-    "react-dom": "^15.6.0",
-    "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
   }
 ```
 
@@ -27,7 +27,7 @@ React Router is used for routing between components and containers. This is done
 ```
 meteor-base@1.1.0               # Packages every Meteor app needs to have
 mobile-experience@1.0.4         # Packages for a great mobile UX
-mongo@1.1.18                    # The database Meteor supports right now
+mongo@1.2.0                    # The database Meteor supports right now
 reactive-var@1.0.11             # Reactive variable for tracker
 jquery@1.11.10                  # Helpful client-side library
 tracker@1.1.3                   # Meteor's client-side reactive programming library
@@ -35,9 +35,9 @@ static-html                     # Used to get some static html content parsed, e
 
 
 standard-minifier-css@1.3.4     # CSS minifier run for production mode
-standard-minifier-js@2.1.0      # JS minifier run for production mode
+standard-minifier-js@2.1.1      # JS minifier run for production mode
 es5-shim@4.6.15                 # ECMAScript 5 compatibility for older browsers.
-ecmascript@0.8.0                # Enable ECMAScript2015+ syntax in app code
+ecmascript@0.8.2                # Enable ECMAScript2015+ syntax in app code
 
 meteortoys:allthings            # Development tool for Meteor and Mongo
 
@@ -46,16 +46,17 @@ fourseven:scss
 
 # All things about users,password and roles
 useraccounts:unstyled
-accounts-password@1.3.6
+accounts-password@1.4.0
 alanning:roles
 
 # React
 react-meteor-data
 
 # New stuff
-dynamic-import
+dynamic-import@0.1.1
 
 #bundle-visualizer             # Uncomment this and use meteor --production to simulate production minification and see how big your bundle will be.                
+          
 
 ```
 
