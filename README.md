@@ -1,7 +1,7 @@
 # MeteorReactBoilerplate
 
-![Meteor version](https://img.shields.io/badge/Meteor%20Version-1.5.2-green.svg)
-![React version](https://img.shields.io/badge/React%20Version-15.6.1-green.svg)
+![Meteor version](https://img.shields.io/badge/Meteor%20Version-1.5.2.2-green.svg)
+![React version](https://img.shields.io/badge/React%20Version-16.0.0-green.svg)
 
 A simple boilerplate for using React within Meteor. All fundamental packages and dependencies are added in the packages file of .meteor and in the package.json file for npm. You can make your React components reactive with `meteor-react-data`. For further reading about this please visit the [Meteor Guide](https://guide.meteor.com/react.html#using-createContainer) Also a settings-file for storing constants like API-Keys is available. **But keep in mind to not commit your settings.json file into any version control system. For git just add `settings.json` to your _.gitignore_ file.**
 
