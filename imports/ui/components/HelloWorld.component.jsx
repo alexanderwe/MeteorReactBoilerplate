@@ -1,6 +1,5 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom"
-
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
 class HelloWorld extends Component {
     render() {
@@ -12,13 +11,12 @@ class HelloWorld extends Component {
                     If you see some issues with this boilerplate make an issue on
                     <a href="https://github.com/alexanderwe/MeteorReactBoilerplate"> Github</a>
                 </p>
-
+                <p>{this.props.user}</p>
                 <div>
                     <h3>Test the routing</h3>
-                    <NavLink to={"/"}>Hello World</NavLink> <br />
-                    <NavLink to={"/goodbye"}>Goodbye World</NavLink>
+                    <NavLink to={'/'}>Hello World</NavLink> <br />
+                    <NavLink to={'/goodbye'}>Goodbye World</NavLink>
                 </div>
-
             </div>
         );
     }
