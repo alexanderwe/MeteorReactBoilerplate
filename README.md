@@ -17,6 +17,7 @@ React Router is used for routing between components and containers. This is done
     "meteor-node-stubs": "^0.2.11",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-helmet": "^5.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   }

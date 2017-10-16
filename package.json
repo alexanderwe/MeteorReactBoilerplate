@@ -1,35 +1,32 @@
 {
-  "name": "MeteorReactBoilerplate",
-  "version": "1.4.1",
-  "description": "A small boilerplate using Meteor 1.5 and React with Reac-Router",
-  "author": {
-    "name": "alexanderwe",
-    "url": "https://github.com/alexanderwe"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alexanderwe/MeteorReactBoilerplate.git"
-  },
-  "bugs": {
-    "url": "https://github.com/alexanderwe/MeteorReactBoilerplate/issues"
-  },
-  "license": "MIT",
-  "keywords": [
-    "react",
-    "react-router",
-    "meteor",
-    "boilerplate"
-  ],
-  "scripts": {
-    "start": "meteor run"
-  },
-  "dependencies": {
-    "babel-runtime": "^6.23.0",
-    "bcrypt": "^1.0.2",
-    "meteor-node-stubs": "^0.2.11",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2"
-  }
+    "name": "MeteorReactBoilerplate",
+    "version": "1.5",
+    "description": "A small boilerplate using Meteor 1.5 and React 1.6 with React-Router",
+    "author": {
+        "name": "alexanderwe",
+        "url": "https://github.com/alexanderwe"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexanderwe/MeteorReactBoilerplate.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alexanderwe/MeteorReactBoilerplate/issues"
+    },
+    "license": "MIT",
+    "keywords": ["react", "react-router", "meteor", "boilerplate"],
+    "scripts": {
+        "start": "meteor run",
+        "dev": "meteor settings settins-development.json"
+    },
+    "dependencies": {
+        "babel-runtime": "^6.23.0",
+        "bcrypt": "^1.0.2",
+        "meteor-node-stubs": "^0.2.11",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-helmet": "^5.2.0",
+        "react-router": "^4.2.0",
+        "react-router-dom": "^4.2.2"
+    }
 }
