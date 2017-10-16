@@ -15,8 +15,8 @@ React Router is used for routing between components and containers. This is done
     "babel-runtime": "^6.23.0",
     "bcrypt": "^1.0.2",
     "meteor-node-stubs": "^0.2.11",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   }
@@ -26,20 +26,18 @@ React Router is used for routing between components and containers. This is done
 
 ```
 meteor-base@1.1.0               # Packages every Meteor app needs to have
-mobile-experience@1.0.4         # Packages for a great mobile UX
-mongo@1.2.0                    # The database Meteor supports right now
+mobile-experience@1.0.5         # Packages for a great mobile UX
+mongo@1.2.2                    # The database Meteor supports right now
 reactive-var@1.0.11             # Reactive variable for tracker
 jquery@1.11.10                  # Helpful client-side library
 tracker@1.1.3                   # Meteor's client-side reactive programming library
 static-html                     # Used to get some static html content parsed, especially the meta tags
 
 
-standard-minifier-css@1.3.4     # CSS minifier run for production mode
-standard-minifier-js@2.1.1      # JS minifier run for production mode
+standard-minifier-css@1.3.5     # CSS minifier run for production mode
+standard-minifier-js@2.1.2      # JS minifier run for production mode
 es5-shim@4.6.15                 # ECMAScript 5 compatibility for older browsers.
-ecmascript@0.8.2                # Enable ECMAScript2015+ syntax in app code
-
-meteortoys:allthings            # Development tool for Meteor and Mongo
+ecmascript@0.8.3                # Enable ECMAScript2015+ syntax in app code
 
 # CSS Preprocessors
 fourseven:scss
@@ -53,10 +51,10 @@ alanning:roles
 react-meteor-data
 
 # New stuff
-dynamic-import@0.1.1
+dynamic-import@0.1.3
 
 #bundle-visualizer             # Uncomment this and use meteor --production to simulate production minification and see how big your bundle will be.                
-          
+
 
 ```
 
@@ -77,7 +75,8 @@ cd MeteorReactBoilerplate
 meteor yarn install                                         # Install dependencies with yarn
 (meteor npm install                                         # If you do not want to use yarn, remove 'yarn.lock')
 meteor                                                      # Start meteor
-meteor  --settings settings.json                            # Start meteor with settings
+meteor  --settings settings-development.json                # Start meteor with development settings
+meteor  --settings settings-production.json                 # Start meteor with production settings
 ```
 
 
